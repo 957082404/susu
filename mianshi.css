@@ -1,0 +1,13 @@
+.wrapper{
+    position: relative;
+}
+.content{
+    background-color:#6699FF;
+    width:200px;
+    height:200px;
+    position: absolute;        //父元素需要相对定位
+    top: 50%;
+    left: 50%;
+    margin-top:-200px ;   //二分之一的height，width
+    margin-left: -100px;
+}
